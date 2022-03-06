@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar{
+  width: 6px;
+  background-color: grey;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+
+.App{
+  min-height: 98.5vh;
+  border: 8px solid #000000;
+  margin: 5px;
+  padding: 5px;
+  background: linear-gradient(316deg, #545bbd, #ffffff, #414141, #e29999);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationNames 5s ease infinite;
+  animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+  
